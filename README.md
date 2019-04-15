@@ -23,9 +23,9 @@ Készíts egy netcopykliens/szerver alkalmazást, mely egy fájl átvitelét és
   - Válasz üzenet: <checksumhossza bájtszámban>|<checksumbájtjai> Péda: 12|abcdefabcdef
   - Ha nincs checksum, akkor ezt küldi: 0|
 - Futtatás
-  - .\checksum_srv.py <ip> <port>
-  - <ip> -pl. localhosta szerver címe bindolásnál
-  - <port> -ezen a portonlesz elérhető
+  - .\checksum_srv.py `<ip>` `<port>`
+  - `<ip>` pl. localhosta szerver címe bindolásnál
+  - `<port>` ezen a portonlesz elérhető
   - A szerver végtelen ciklusban fut és egyszerre több klienst is ki tud szolgálni. A kommunikáció TCP, csak a fenti üzeneteket kezeli.
   - Lejárat utáni checksumoktörlődnek.
   
