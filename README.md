@@ -40,7 +40,7 @@ Készíts egy netcopykliens/szerver alkalmazást, mely egy fájl átvitelét és
   - <fájl azon>:  egész szám
   - <srv_ip> <srv_port>: a netcopyszerver elérhetősége•<chsum_srv_ip> <chsum_srv_port>: a Checksumszerver elérhetősége
   
-  ## Netcopyszerver (TCP)
+  ## Netcopy szerver (TCP)
 - Működés:
   - Bindoljaa socketeta parancssori argumentumban megadott címre.
   - Vár egy kliensre.
